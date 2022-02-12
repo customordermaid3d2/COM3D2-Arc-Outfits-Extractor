@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="CM3D2.Toolkit.Guest4168Branch">
       <HintPath>H:\COM3D2\BepinEx\plugins\CM3D2.Toolkit.Guest4168Branch.dll</HintPath>
     </Reference>

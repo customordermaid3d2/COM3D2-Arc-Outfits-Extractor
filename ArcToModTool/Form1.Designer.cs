@@ -33,6 +33,7 @@ namespace ArcOutfitExtractorTool
             this.DirectoryConvertButton = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,11 +66,11 @@ namespace ArcOutfitExtractorTool
             // textBox1
             // 
             this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox1.Location = new System.Drawing.Point(0, 36);
+            this.textBox1.Location = new System.Drawing.Point(0, 61);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(483, 464);
+            this.textBox1.Size = new System.Drawing.Size(483, 439);
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = "drag and drop";
             // 
@@ -78,11 +79,24 @@ namespace ArcOutfitExtractorTool
             this.flowLayoutPanel1.AutoSize = true;
             this.flowLayoutPanel1.Controls.Add(this.DirectoryConvertButton);
             this.flowLayoutPanel1.Controls.Add(this.ConvertButton);
+            this.flowLayoutPanel1.Controls.Add(this.checkBox1);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(483, 36);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(483, 61);
             this.flowLayoutPanel1.TabIndex = 3;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox1.Location = new System.Drawing.Point(3, 39);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(148, 19);
+            this.checkBox1.TabIndex = 2;
+            this.checkBox1.Text = "*.ks file shift jis to utf8";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -109,6 +123,7 @@ namespace ArcOutfitExtractorTool
 		private System.Windows.Forms.Button DirectoryConvertButton;
         internal System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        internal System.Windows.Forms.CheckBox checkBox1;
     }
 }
 
