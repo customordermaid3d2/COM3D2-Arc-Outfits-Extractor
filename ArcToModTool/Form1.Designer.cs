@@ -33,7 +33,8 @@ namespace ArcOutfitExtractorTool
             this.DirectoryConvertButton = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBoxKs = new System.Windows.Forms.CheckBox();
+            this.checkBoxNeiToCsv = new System.Windows.Forms.CheckBox();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,7 +80,8 @@ namespace ArcOutfitExtractorTool
             this.flowLayoutPanel1.AutoSize = true;
             this.flowLayoutPanel1.Controls.Add(this.DirectoryConvertButton);
             this.flowLayoutPanel1.Controls.Add(this.ConvertButton);
-            this.flowLayoutPanel1.Controls.Add(this.checkBox1);
+            this.flowLayoutPanel1.Controls.Add(this.checkBoxKs);
+            this.flowLayoutPanel1.Controls.Add(this.checkBoxNeiToCsv);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -88,15 +90,27 @@ namespace ArcOutfitExtractorTool
             // 
             // checkBox1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Checked = true;
-            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox1.Location = new System.Drawing.Point(3, 39);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(148, 19);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "*.ks file shift jis to utf8";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBoxKs.AutoSize = true;
+            this.checkBoxKs.Checked = true;
+            this.checkBoxKs.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBoxKs.Location = new System.Drawing.Point(3, 39);
+            this.checkBoxKs.Name = "checkBox1";
+            this.checkBoxKs.Size = new System.Drawing.Size(148, 19);
+            this.checkBoxKs.TabIndex = 2;
+            this.checkBoxKs.Text = "*.ks file shift jis to utf8";
+            this.checkBoxKs.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxNeiToCsv
+            // 
+            this.checkBoxNeiToCsv.AutoSize = true;
+            this.checkBoxNeiToCsv.Checked = true;
+            this.checkBoxNeiToCsv.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBoxNeiToCsv.Location = new System.Drawing.Point(157, 39);
+            this.checkBoxNeiToCsv.Name = "checkBoxNeiToCsv";
+            this.checkBoxNeiToCsv.Size = new System.Drawing.Size(86, 19);
+            this.checkBoxNeiToCsv.TabIndex = 3;
+            this.checkBoxNeiToCsv.Text = "*.nei to csv";
+            this.checkBoxNeiToCsv.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -123,7 +137,8 @@ namespace ArcOutfitExtractorTool
 		private System.Windows.Forms.Button DirectoryConvertButton;
         internal System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        internal System.Windows.Forms.CheckBox checkBox1;
+        internal System.Windows.Forms.CheckBox checkBoxKs;
+        internal System.Windows.Forms.CheckBox checkBoxNeiToCsv;
     }
 }
 
